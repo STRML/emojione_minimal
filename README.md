@@ -5,6 +5,12 @@ This is a fork of [Emoji One](https://github.com/Ranks/emojione) with the goal o
 All non-js dependencies have been excluded from this package, including font and svg assets. Use this package only
 if you want to use the simple shortname/unicode conversions, or have hosted the assets elsewhere.
 
+Size comparison:
+
+| emojione | emojione_minimal |
+|----------|------------------|
+| 81MB     | 1MB              |
+
 This package will follow emojione closely.
 
 `npm install emojione_minimal`
