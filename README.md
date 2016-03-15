@@ -1,3 +1,16 @@
+# Emojione_minimal
+
+This is a fork of [Emoji One](https://github.com/Ranks/emojione) with the goal of producing a minimal package size.
+
+All non-js dependencies have been excluded from this package, including font and svg assets. Use this package only
+if you want to use the simple shortname/unicode conversions, or have hosted the assets elsewhere.
+
+This package will follow emojione closely.
+
+`npm install emojione_minimal`
+
+----
+
 #![Emoji One Logo](http://git.emojione.com/assets/logo.png) Emoji One [![Build Status](https://travis-ci.org/Ranks/emojione.svg?branch=master)](https://travis-ci.org/Ranks/emojione)
 > bringing you [emojione.com](http://emojione.com/) & [emoji.codes](http://emoji.codes/)
 
@@ -174,7 +187,7 @@ This sprite method requires no extra CSS, and is infinitely resizable.
 ## Other Considerations
 ### Character Encoding &mdash; UTF-8
 
-If you're getting serious about implementing emoji into your website, you will want to consider your web stack's character encoding. You should make sure that all connection points are using the same encoding. There are a lot of options and configuration possibilities here, so you'll have to figure what works best for your own situation. 
+If you're getting serious about implementing emoji into your website, you will want to consider your web stack's character encoding. You should make sure that all connection points are using the same encoding. There are a lot of options and configuration possibilities here, so you'll have to figure what works best for your own situation.
 
 A quick Google search will bring up a lot of information on how to get your entire web stack to use UTF-8, which is needed to properly handle Unicode emoji.
 
