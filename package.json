@@ -18,13 +18,13 @@
   "homepage": "http://www.emojione.com",
   "licenses": {
     "type": "(CC-BY-SA-4.0 and MIT)",
-    "url": "https://github.com/Ranks/emojione/blob/master/LICENSE.md"
+    "url": "https://github.com/strml/emojione_minimal/blob/master/LICENSE.md"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ranks/emojione.git"
+    "url": "https://github.com/strml/emojione_minimal.git"
   },
-  "bugs": "https://github.com/Ranks/emojione/issues",
+  "bugs": "https://github.com/strml/emojione_minimal/issues",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.12.2",
